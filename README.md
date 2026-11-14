@@ -322,7 +322,7 @@ viewerxml/
     └── viewerxml_backup.dump # validado via pg_restore
 ```
 
-## 💻 Como rodar
+## 💻 Como Rodar
 ```bash
 sudo -u postgres psql -c "CREATE DATABASE viewerxml;"
 sudo -u postgres psql -d viewerxml -f schema.sql
